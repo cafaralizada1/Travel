@@ -1,0 +1,218 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #56AAEA;
+}
+header .nvb {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+header .nvb a img {
+  margin-left: 20px;
+  width: 20%;
+}
+header .nvb .collapseDiv {
+  justify-content: center;
+  align-items: center;
+}
+header .nvb .collapseDiv .list {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+header .nvb .collapseDiv .list li a {
+  color: #fff;
+}
+
+main #bgPhoto {
+  background: url("/assets/image/paris-1024x735.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+}
+main #bgPhoto .bgPhotoWord {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 14px;
+}
+main #bgPhoto .bgPhotoWord p {
+  font-size: 14px;
+  margin-top: 10%;
+  color: gray;
+}
+main #bgPhoto .bgPhotoWord h1,
+main #bgPhoto .bgPhotoWord h2 {
+  color: #565353;
+  font-size: 40px;
+}
+main #bgPhoto .bgPhotoWord .bgPhotoBtn {
+  padding: 10px;
+  background-color: transparent;
+  color: #000;
+  border-radius: 10px;
+}
+main #bgPhoto .bgPhotoWord .bgPhotoBtn:hover {
+  background-color: #000;
+  color: #fff;
+  transition: 0.5s;
+}
+main #travelCard {
+  margin-top: 5%;
+}
+main #travelCard .cardTravel {
+  text-align: center;
+}
+main #travelCard .cardTravel i {
+  font-size: 50px;
+  color: #4484CE;
+}
+main #greece {
+  margin-top: 5%;
+  background-color: #EFEFEF;
+}
+main #greece .greeceImg img {
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+main #paris {
+  background-color: #EFEFEF;
+}
+main #paris .parisImg img {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+main #popular {
+  margin-top: 5%;
+}
+main #popular .popularTxt {
+  text-align: center;
+}
+main #popular .popularImg img {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  margin-top: 20px;
+}
+main #js {
+  margin-top: 5%;
+  text-align: center;
+}
+main #js #inp {
+  padding: 6px;
+  background-color: #4484CE;
+  color: #fff;
+  font-weight: 900;
+}
+main #js #searchBtn {
+  padding: 6px;
+  background-color: #4484CE;
+  color: #000;
+}
+main #js #load {
+  padding: 8px;
+  background-color: #4484CE;
+  color: #000;
+}
+main #js #load:hover {
+  background-color: #000;
+  color: #4484CE;
+  transition: 0.5s;
+}
+main #js #card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 21px;
+  flex-wrap: wrap;
+}
+main #js #card .cardList {
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 14px;
+}
+main #js #card .cardList img {
+  width: 280px;
+  margin-top: 5%;
+}
+main #js #card .cardList h1 {
+  color: #000;
+  font-weight: 800;
+  font-size: 40px;
+}
+main #js #card .cardList p {
+  color: #000;
+  font-weight: 800;
+  font-size: 40px;
+}
+main #js #card .cardList .jsBtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 14px;
+}
+main #js #card .cardList .jsBtn .btnCard {
+  padding: 8px;
+  background-color: #4484CE;
+  color: #000;
+}
+main #js #card .cardList .jsBtn .btnWishlist {
+  padding: 8px;
+  background-color: #4484CE;
+  color: #000;
+}
+main #js #card .cardList .jsBtn .btnCard:hover, main #js #card .cardList .jsBtn .btnWishlist:hover {
+  background-color: #000;
+  color: #4484CE;
+  transition: 0.5s;
+}
+main #formJs {
+  background-color: #ffff00;
+  margin-top: 5%;
+}
+main #formJs #form {
+  gap: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+footer {
+  margin-top: 5%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+footer .footerWord {
+  margin-left: 10px;
+}
+footer .footerIcon {
+  color: rgb(255, 0, 0);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 14px;
+  margin-right: 10px;
+}
